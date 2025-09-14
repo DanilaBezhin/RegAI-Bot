@@ -1,7 +1,7 @@
 import telebot 
 from openai import OpenAI
 
-TOKEN = '7026063218:AAHIgxSCPTNs-7ofb04IcyL4Ap1QM8vwpl0'
+TOKEN = 
 bot = telebot.TeleBot(TOKEN)
 
 client = OpenAI(
@@ -139,4 +139,5 @@ def ai_sup(message):
 
 
 print('Bot is activate!')
+
 bot.polling()
